@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title> About us - Website </title>
+	<style>
+		div
+		{
+			width:400px;
+			border: 5px dashed red;
+
+		}
+	</style>
+</head>
+<body>
+	<center>
+			<h1> About us </h1>
+
+			<video id="vid" width="500" controls>
+				<source src="videos/video.mp4" type="video/mp4">
+			</video>
+
+	</center>
+	<div>
+	<br><br>
+	<ul style="list-style-type:square">
+		<li> Item 1 </li>
+		<li> Item 2 </li>
+		<li> Item 3 </li>
+	</ul>
+	<br><br>
+
+	<ol type="I">
+		<li> Item 1 </li>
+		<li> Item 2 </li>
+		<ul>
+			<li> Sub Item 1 </li>
+			<li> Sub Item 2 </li>
+		</ul>
+		<li> Item 3 </li>
+	</ol>
+</div>
+<center>
+<br><br>
+<form action="" method="get">
+	<input list="State" name="State">
+	<datalist id="State">
+		<option value="California"/>
+		<option value="Illinois"/>
+		<option value="Texas"/>
+	</datalist>
+	<input type="submit">
+</form>
+	
+	<h3> Calculator </h3>
+
+	<form oninput="output.value=parseInt(first.value)*parseInt(second.value)">
+		<input type="number" id="first" name="first" value="50"> x 
+		<input type="number" id="second" name="second" value="50"> = 
+		<output name="output" for ="first second"></output>
+	</form>
+
+			</center>
+</body>
+</html>
